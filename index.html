@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Average Calculator - Home</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-    <h1>test</h1>
-    
-</body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav-bar">
+        <div class="nav-bar-main">
+          <img
+            class="main-logo"
+            src="images/nav bar/main-nav-icon.png"
+            alt="main icon"
+          />
+          <h2>Average Calculator</h2>
+        </div>
+        <ul class="nav-bar-links">
+          <li class="link"><a href="#">Home</a></li>
+          <li class="link"><a href="howitworks.html">How it works?</a></li>
+          <li class="link">
+            <a href="normalcalculator.html">Normal Calculator</a>
+          </li>
+          <li class="link"><a href="#">Login to track progress</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main content -->
+    <div class="calculator">
+      <div>
+        <textarea
+          id="inputNumbers"
+          placeholder="Enter numbers separated by commas"
+        ></textarea>
+        <button class="calc-button">Calculate Average</button>
+      </div>
+      <div id="output">
+        <h5>Calculated Average</h5>
+        <textarea
+          id="outputNumbers"
+          placeholder="Average will be displayed here"
+        ></textarea>
+      </div>
+    </div>
+  </body>
 </html>
